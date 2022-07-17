@@ -1,4 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Roboto&display=swap');
  body {
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+   background: #f1f1f1;
+   color: black;
+   /* font-size: 16px; */
+   /* font-weight: normal; */
+   /* font-family: 'Roboto', sans-serif; */
+    font: normal 16px 'Roboto', sans-serif;
  }
+
+ a {
+   color: green;
+   text-decoration: none;
+ }
+
+ a:hover {
+   text-decoration: underline;
+ }
+
+ a:active {
+   color: red;
+ }
+
+ a:visited {
+   color: blue;
+ }
+
+ .ava {
+   width: 200px;
+   border-radius: 26px;
+   box-shadow: 4px 4px 14px green;
+ }
+
+ .info {
+   margin-bottom: 20px;
+ }
+
+ .info p {
+   color: green;
+   margin: 0;
+   font-style: italic;
+   text-decoration: none;
+   text-transform: none;
+   /* letter-spacing: 5px; */
+   /* word-spacing: 140px; */
+ }
+
+ .bg-yellow {
+   background: #fff9dc;
+ }
+
+ .bg-red {
+   background: #ffe5e5;
+ }
+
+ .bg-green {
+   background: #e5ffe7;
+ }
+
+.card {
+   padding: 10px 20px;
+   /* background: green; */
+   margin-bottom: 20px;
+   border-radius: 26px;
+}
+
+.card h2 {
+   margin-bottom: 10px;
+}
+
+ /* .social {
+   background: green;
+   border-radius: 26px;
+   padding: 0px 20px;
+   margin: 5px;
+   border: 5px solid purple;
+   border-bottom-style: dotted;
+   border-top-width: 15px;
+   border-right-color: red;
+ } */
+
+ .container {
+   max-width: 900px;
+   margin: auto;
+ }
+
+ /* .box > div {
+   float: left;
+   background: black;
+   height: 150px;
+   width: 25%;
+   border: 5px solid blue;
+   box-sizing: border-box;
+ } */

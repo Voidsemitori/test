@@ -6,63 +6,68 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td><img src="image1.jpg" height="170" alt=""></td>
-            <td> <h1>Чисато Минасе</h1>
-                <p>Специалист по созданию <strong>многофункциональной шизы</strong>.</p>
-                <p><em>Это определенно вам не нужно, покиньте страницу как можно быстрее!</em></p>
-            </td>
-        </tr>
-    </table>
-    
-   
-    <hr color="green">
-    <h2>Мои соцсети:</h2>
-    <ul>
-        <li><a href="https://vk.com/henshin_emergence" target="_blank">VK</a></li>
-        <li><a href="https://twitter.com/Zettai_void" target="_blank">Twitter</a></li>
-        <li><a href="https://www.youtube.com/channel/UCMem6_ySNKnWR0z6zwO-W9A" target="_blank">Youtube канал</a></li>
-    </ul>
 
-    <hr color="orange">
+    <div class="container">
 
-    <h2>Табличка:</h2>
-    <table border="1" style="border: darkblue;">
-        <tr>
-            <th>Буква</th>
-            <th>Число</th>
-            <th>???</th>
-        </tr>
-        <tr>
-            <td>v</td>
-            <td>22</td>
-            <td>Death</td>
-        </tr><tr>
-            <td>o</td>
-            <td>15</td>
-            <td>Dementia</td>
-        </tr>
-    </table>
+        <div class="info">
+            <img src="image1.jpg" alt="Аватар" class="ava">
+            <h1>Чисато Минасе</h1>
+            <p>Специалист по созданию <strong>многофункциональной шизы</strong>.</p>
+            <p>Это определенно вам не нужно, покиньте страницу как можно быстрее!</p>
 
-    <hr color="red">
+            <h4>Мои соцсети:</h4>
+            
+                <a href="https://vk.com/henshin_emergence" target="_blank">VK</a> |
+                <a href="https://twitter.com/Zettai_void" target="_blank">Twitter</a> |
+                <a href="https://www.youtube.com/channel/UCMem6_ySNKnWR0z6zwO-W9A" target="_blank">Youtube канал</a>
 
-    <h2>Навигация по сайту:</h2>
-    <ul>
-        <li><a href="page 3.html">Страница с желтыми линиями</a></li>
-        <li><a href="page 1.html">Страница 1</a></li>
-        <li><a href="Info page.html">Инфо</a></li>
-    </ul>
+        </div>
 
-    <hr color="violet">
-    <h2>Ввод:</h2>
-    <form action="">
-        <label for="name">Введите имя</label>
-        <input type="text" id="name" placeholder="Введите никнейм..."> 
-        <input type="checkbox">
-        <br>
-        <input type="reset">
-    </form>
+        <div class="card bg-yellow">
+            <h2>Табличка:</h2>
+            <table border="1">
+                <tr>
+                    <th>Буква</th>
+                    <th>Число</th>
+                    <th>???</th>
+                </tr>
+                <tr>
+                    <td>v</td>
+                    <td>22</td>
+                    <td>Death</td>
+                </tr><tr>
+                    <td>o</td>
+                    <td>15</td>
+                    <td>Dementia</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Навигация по сайту:</h2>
+            <ul>
+                <li><a href="page 3.html">Страница с желтыми линиями</a></li>
+                <li><a href="page 1.html">Страница 1</a></li>
+                <li><a href="Info page.html">Инфо</a></li>
+            </ul>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Регистрация:</h2>
+            <form action="">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите ваше имя..."> 
+                <label for="date">Ваша дата рождения:</label>
+                <input type="date">
+                <button type="submit">Зарегистрироваться</button>
+                <br>
+                <input type="reset">
+            </form>
+        </div>
+
+    </div>
+
+    <div style="margin-bottom: 500px;"></div>
 
 </body>
 </html>
