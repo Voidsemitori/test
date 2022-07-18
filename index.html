@@ -11,25 +11,27 @@
 
         <div class="info">
             <img src="image1.jpg" alt="Аватар" class="ava">
-            <h1>Чисато Минасе</h1>
-            <p>Специалист по созданию <strong>многофункциональной шизы</strong>.</p>
-            <p>Это определенно вам не нужно, покиньте страницу как можно быстрее!</p>
+            <div class="info-text">
+                <h1>Чисато Минасе</h1>
+                <p>Специалист по созданию <strong>многофункциональной шизы</strong>.</p>
+                <p>Это определенно вам не нужно, покиньте страницу как можно быстрее!</p>
 
-            <h4>Мои соцсети:</h4>
-            
-                <a href="https://vk.com/henshin_emergence" target="_blank">VK</a> |
-                <a href="https://twitter.com/Zettai_void" target="_blank">Twitter</a> |
-                <a href="https://www.youtube.com/channel/UCMem6_ySNKnWR0z6zwO-W9A" target="_blank">Youtube канал</a>
+                <h4>Мои соцсети:</h4>
+                
+                    <a href="https://vk.com/henshin_emergence" target="_blank">VK</a> |
+                    <a href="https://twitter.com/Zettai_void" target="_blank">Twitter</a> |
+                    <a href="https://www.youtube.com/channel/UCMem6_ySNKnWR0z6zwO-W9A" target="_blank">Youtube канал</a>
+            </div>
 
         </div>
 
         <div class="card bg-yellow">
             <h2>Табличка:</h2>
-            <table border="1">
+            <table class="table">
                 <tr>
-                    <th>Буква</th>
-                    <th>Число</th>
-                    <th>???</th>
+                    <td>Буква</td>
+                    <td>Число</td>
+                    <td>???</td>
                 </tr>
                 <tr>
                     <td>v</td>
@@ -40,29 +42,51 @@
                     <td>15</td>
                     <td>Dementia</td>
                 </tr>
+                <tr>
+                    <td>i</td>
+                    <td>9</td>
+                    <td>Might</td>
+                </tr>
             </table>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Список</h2>
+            <ol class="list">
+                <li>Номер один</li>
+                <li>Номер два</li>
+                <li>Номер три</li>
+            </ol>
         </div>
 
         <div class="card bg-red">
             <h2>Навигация по сайту:</h2>
-            <ul>
+            <ul class="link-list">
                 <li><a href="page 3.html">Страница с желтыми линиями</a></li>
                 <li><a href="page 1.html">Страница 1</a></li>
                 <li><a href="Info page.html">Инфо</a></li>
             </ul>
         </div>
 
-        <div class="card bg-green">
+        <div class="bg-blue reg">
             <h2>Регистрация:</h2>
             <form action="">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите ваше имя..."> 
-                <label for="date">Ваша дата рождения:</label>
-                <input type="date">
-                <button type="submit">Зарегистрироваться</button>
-                <br>
-                <input type="reset">
+                <div class="row">
+                    <div class="form">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя..."> 
+                    </div>
+                    <div class="form">
+                        <label for="name">Пароль:</label>
+                        <input type="text" id="name" placeholder="Введите пароль..."> 
+                    </div>
+                </div>
+                <button type="submit" class="btn-reg">Зарегистрироваться</button>
             </form>
+        </div>
+
+        <div class="position">
+            <div class="box"></div>
         </div>
 
     </div>

@@ -1,94 +1,243 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Roboto&display=swap');
- body {
-   background: #f1f1f1;
-   color: black;
-   /* font-size: 16px; */
-   /* font-weight: normal; */
-   /* font-family: 'Roboto', sans-serif; */
-    font: normal 16px 'Roboto', sans-serif;
- }
 
- a {
-   color: green;
-   text-decoration: none;
- }
 
- a:hover {
-   text-decoration: underline;
- }
+/* * {
+  padding: 0;
+  margin: 0;
+} */
 
- a:active {
-   color: red;
- }
+body {
+  background: #f1f1f1;
+  color: black;
+  /* font-size: 16px; */
+  /* font-weight: normal; */
+  /* font-family: 'Roboto', sans-serif; */
+  font: normal 16px 'Roboto', sans-serif;
+}
 
- a:visited {
-   color: blue;
- }
+a {
+  color: green;
+  text-decoration: none;
+}
 
- .ava {
-   width: 200px;
-   border-radius: 26px;
-   box-shadow: 4px 4px 14px green;
- }
+a:hover {
+  text-decoration: underline;
+}
 
- .info {
-   margin-bottom: 20px;
- }
+a:active {
+  color: red;
+}
 
- .info p {
-   color: green;
-   margin: 0;
-   font-style: italic;
-   text-decoration: none;
-   text-transform: none;
-   /* letter-spacing: 5px; */
-   /* word-spacing: 140px; */
- }
+a:visited {
+  color: blue;
+}
 
- .bg-yellow {
-   background: #fff9dc;
- }
+a:visited:active {
+color: red;
+}
 
- .bg-red {
-   background: #ffe5e5;
- }
+.ava {
+  width: 200px;
+  border-radius: 26px;
+  box-shadow: 4px 4px 14px green;
+}
 
- .bg-green {
-   background: #e5ffe7;
- }
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+
+.info-text {
+  margin-left: 30px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  color: green;
+  margin: 0;
+  font-style: italic;
+  text-decoration: none;
+  text-transform: none;
+  /* letter-spacing: 5px; */
+  /* word-spacing: 140px; */
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-blue {
+  background: #87cefa;
+}
 
 .card {
-   padding: 10px 20px;
-   /* background: green; */
-   margin-bottom: 20px;
-   border-radius: 26px;
+  padding: 10px 20px;
+  /* background: green; */
+  margin-bottom: 20px;
+  border-radius: 26px;
 }
 
 .card h2 {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
- /* .social {
-   background: green;
-   border-radius: 26px;
-   padding: 0px 20px;
-   margin: 5px;
-   border: 5px solid purple;
-   border-bottom-style: dotted;
-   border-top-width: 15px;
-   border-right-color: red;
- } */
+.list {
+  padding: 0 20px;
+}
 
- .container {
-   max-width: 900px;
-   margin: auto;
- }
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
 
- /* .box > div {
-   float: left;
-   background: black;
-   height: 150px;
-   width: 25%;
-   border: 5px solid blue;
-   box-sizing: border-box;
- } */
+
+
+/* .social {
+  background: green;
+  border-radius: 26px;
+  padding: 0px 20px;
+  margin: 5px;
+  border: 5px solid purple;
+  border-bottom-style: dotted;
+  border-top-width: 15px;
+  border-right-color: red;
+} */
+
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* .box > div {
+  float: left;
+  background: black;
+  height: 150px;
+  width: 25%;
+  border: 5px solid blue;
+  box-sizing: border-box;
+} */
+
+.table {
+  width: 100%;
+}
+
+.table td:nth-child(3),
+.table td:nth-child(2) {
+  color: lime;
+}
+
+.link-list {
+  list-style: circle;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.reg {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 26px;
+}
+
+.reg h2 {
+  text-align: center;
+}
+
+
+.form label {
+  display: block;
+  font-size: 15px;
+  color: green;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid green;
+  /* border-radius: 26px; */
+  color: black;
+  padding: 15px 10px 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn-reg {
+  cursor: pointer;
+  background: green;
+  border: none;
+  width: 150px;
+  height: 20px;
+  border-radius: 15px;
+}
+
+.btn-reg:hover {
+  opacity: 0.9;
+}
+
+.btn-reg:active {
+  border: solid red;
+  width: 150px;
+  height: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form {
+  width: 50%;
+  
+}
+
+.row > .form:first-child {
+  margin-right: 20px;
+}
+
+/* position */
+
+/* .position {
+  position: relative;
+  border: 3px solid yellow;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: aqua;
+} */
