@@ -38,6 +38,7 @@ color: red;
 
 .ava {
   width: 200px;
+  height: 200px;
   border-radius: 26px;
   box-shadow: 4px 4px 14px green;
 }
